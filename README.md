@@ -7,7 +7,9 @@ Original Dataset : Predict Online Gaming Behaviour Dataset
 https://www.kaggle.com/datasets/rabieelkharoua/predict-online-gaming-behavior-dataset
 
 Synthetic Data Generation Models : 
-[1] SDV Developers. (2023). CTGAN: Conditional tabular GAN. Retrieved from https://github.com/sdv-dev/CTGAN
+
+[1] SDV Developers. (2023). CTGAN: Conditional tabular GAN. Retrieved from https://github.com/sdv-dev/CTGAN.
+
 [2] World Bank. (2023). REaLTabFormer: Realistic tabular data transformer. Retrieved from https://github.com/worldbank/REaLTabFormer
 
 Conclusion : 
