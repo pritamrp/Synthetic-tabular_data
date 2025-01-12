@@ -34,3 +34,17 @@ text
 │   ├── raw/
 │   └── processed/
 └── README.md
+
+## Technical Notes
+- The **transformer model** was executed in a separate notebook due to computational requirements.  
+- Both models were evaluated using **standard metrics for synthetic data quality**.
+
+## Author
+**Pritam Pandit**
+
+## References
+- **SDV Developers.** (2023). [CTGAN: Conditional Tabular GAN](https://github.com/sdv-dev).  
+- **World Bank.** (2023). [REaLTabFormer: Realistic Tabular Data Transformer](https://github.com/WorldBank).  
+
+**Note**: For detailed implementation and results, please refer to the individual notebooks in the repository.
+
