@@ -1,19 +1,36 @@
-# Synthetic-tabular_data
-BA890:  Analytics Practicum - Pritam Pandit
+# Synthetic Tabular Data Generation Project  
+**BA890: Analytics Practicum**
 
-This project explores generating synthetic tabular data using CTGAN and REaLTabFormer models. The dataset used includes player behavior and demographics in online gaming. We compare the models' ability to produce high-quality, privacy-preserving synthetic data for practical applications.
+## Overview
+This project explores and compares different approaches to generating **synthetic tabular data**, focusing on two main models: **CTGAN** and **REaLTabFormer**. Using an online gaming behavior dataset, we evaluate these models' effectiveness in producing high-quality, privacy-preserving synthetic data.
 
-Original Dataset : Predict Online Gaming Behaviour Dataset
-https://www.kaggle.com/datasets/rabieelkharoua/predict-online-gaming-behavior-dataset
+## Dataset
+The project utilizes the **"Predict Online Gaming Behaviour Dataset"**, which contains player behavior and demographic information.  
+**Source**: [Kaggle - Online Gaming Behavior Dataset](https://www.kaggle.com)
 
-Synthetic Data Generation Models : 
+## Models Implemented
 
-[1] SDV Developers. (2023). CTGAN: Conditional tabular GAN. Retrieved from https://github.com/sdv-dev/CTGAN.
+### **CTGAN (Conditional Tabular GAN)**  
+- A specialized GAN architecture for tabular data  
+- **Source**: [SDV Developers GitHub](https://github.com/sdv-dev)
 
-[2] World Bank. (2023). REaLTabFormer: Realistic tabular data transformer. Retrieved from https://github.com/worldbank/REaLTabFormer
+### **REaLTabFormer**  
+- A transformer-based approach for realistic tabular data generation  
+- **Source**: [World Bank GitHub](https://github.com/WorldBank)
 
-Conclusion : 
-The REaLTabFormer model outperformed CTGAN in generating realistic synthetic tabular data, thanks to its ability to model complex relationships within the data.
+## Key Findings
+- **REaLTabFormer** demonstrated superior performance compared to **CTGAN**, particularly in:  
+  - Preserving complex relationships within the data  
+  - Generating more realistic synthetic samples  
+  - Maintaining data quality and integrity  
 
-Note : 
-Due to computational constraints, The Transformer model has been run in seperate Jupyter notebook named.
+## Project Structure
+```plaintext
+text
+├── notebooks/
+│   ├── CTGAN_implementation.ipynb
+│   └── REaLTabFormer_implementation.ipynb
+├── data/
+│   ├── raw/
+│   └── processed/
+└── README.md
