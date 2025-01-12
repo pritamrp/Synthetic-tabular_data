@@ -34,7 +34,7 @@ text
 │   ├── raw/
 │   └── processed/
 └── README.md
-
+```
 ## Technical Notes
 - The **transformer model** was executed in a separate notebook due to computational requirements.  
 - Both models were evaluated using **standard metrics for synthetic data quality**.
